@@ -91,6 +91,8 @@ def main():
                 if bit == '1':
                     info_carte_joueur[joueur_couleur][idx][1] = valeur_couleur
 
+        #elif commande == 'j' :
+
         elif commande == 'f':
             code = int(donnees[1])
             if code == 0:
